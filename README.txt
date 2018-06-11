@@ -1,4 +1,4 @@
-Student Information
+Author
 ####################
 <Vicky Mohammad>
 <0895381>
@@ -12,10 +12,6 @@ Program Description
     to directly asked questions. The concept and technology of ‘Eliza’
     have been replaced with ‘Siri’, ‘Alexa’, “Echo”, and ‘Google Home’ but
     the concept of an automated personalized assistant certainly remains
-
-Additonal Program  Details
-####################
-    
 
 How to run the program
 ####################
@@ -31,30 +27,14 @@ How to run the test
 
 Assumption
 ####################
-    -the data files must be a txt
-    -the program must input a file in command line at start or it will exit
-    -dont enter any symbols to the program or it might cause a problem
-    -asuming that the output has no <...>
-    -keywords is set to lower case to accept the same keywords
-    -program is print in alphabetic order
-    -quiting DOES NOT SAVE the file
+    - the data files must be a txt
+    - the program must input a file in command line at start or it will exit
+    - dont enter any symbols to the program or it might cause a problem
+    - asuming that the output has no <...>
+    - keywords is set to lower case to accept the same keywords
+    - program is print in alphabetic order
+    - quiting DOES NOT SAVE the file
 
 Limitation
 ####################
-    -there is error checking except for when asking user rating, if you pressed enter with blank it will put 0 rating
-
-Collision method
-####################
--for the collision method if the key generate an index with 
-that has something all readyy exist. I am using the seperate 
-chaining methid where it creates a node of a linklist at that 
-index if something already exist. hence there can be more than 
-one item at the colision. since my hash function is mostly unique 
-to almost every word, to prevent a change of less collision, i made 
-the table size bigger number around 99999, to prevent colision happening. 
-The smaller the table size the change of the colisiong to happen. hence, 
-i made the size big enough to no have collsion if collision does occur, 
-then i simply add in the same index. To look at the data, you can simply hash 
-the word and go to the index, and iterate through the nodes of the linklist if 
-there is more than one words in that index, and check if they are the 
-same.   
+    - there is error checking except for when asking user rating, if you pressed enter with blank it will put 0 rating
